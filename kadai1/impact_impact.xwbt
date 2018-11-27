@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\ISE\kadai1\impact.xsl
+OUTFILE=D:\ISE\kadai1\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=D:\ISE\kadai1
+LICENSE=iMPACT
+USER_INFO=iMPACT

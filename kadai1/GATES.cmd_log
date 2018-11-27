@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/ISE/kadai1/GATES.xst" -ofn "D:/ISE/kadai1/GATES.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai1/GATES.xst" -ofn "D:/ISE/kadai1/GATES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-tq144-5 GATES.ngc GATES.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o GATES_map.ncd GATES.ngd GATES.pcf 
+par -w -intstyle ise -ol high -t 1 GATES_map.ncd GATES.ncd GATES.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GATES.twx GATES.ncd -o GATES.twr GATES.pcf 
+bitgen -intstyle ise -f GATES.ut GATES.ncd 
+xst -intstyle ise -ifn "D:/ISE/kadai1/GATES.xst" -ofn "D:/ISE/kadai1/GATES.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GATES.ucf -p xc3s250e-tq144-5 GATES.ngc GATES.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o GATES_map.ncd GATES.ngd GATES.pcf 
+par -w -intstyle ise -ol high -t 1 GATES_map.ncd GATES.ncd GATES.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GATES.twx GATES.ncd -o GATES.twr GATES.pcf -ucf GATES.ucf 
+bitgen -intstyle ise -f GATES.ut GATES.ncd 
