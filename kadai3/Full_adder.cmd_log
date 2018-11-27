@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/ISE/kadai3/Full_adder.xst" -ofn "D:/ISE/kadai3/Full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_adder.ucf -p xc3s250e-tq144-5 Full_adder.ngc Full_adder.ngd  
+xst -intstyle ise -ifn "D:/ISE/kadai3/Full_adder.xst" -ofn "D:/ISE/kadai3/Full_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_adder.ucf -p xc3s250e-tq144-5 Full_adder.ngc Full_adder.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o Full_adder_map.ncd Full_adder.ngd Full_adder.pcf 
+par -w -intstyle ise -ol high -t 1 Full_adder_map.ncd Full_adder.ncd Full_adder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_adder.twx Full_adder.ncd -o Full_adder.twr Full_adder.pcf -ucf Full_adder.ucf 
+bitgen -intstyle ise -f Full_adder.ut Full_adder.ncd 

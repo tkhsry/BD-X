@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 27 13:57:27 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CI" LOCATE = SITE "P136" LEVEL 1;
+COMP "CO" LOCATE = SITE "P124" LEVEL 1;
+COMP "A" LOCATE = SITE "P111" LEVEL 1;
+COMP "B" LOCATE = SITE "P114" LEVEL 1;
+COMP "S" LOCATE = SITE "P132" LEVEL 1;
+SCHEMATIC END;
+

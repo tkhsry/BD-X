@@ -1,0 +1,11 @@
+V3 7
+FL D:/ISE/kadai3/Full_adder.vhd 2018/11/27.13:55:56 P.20131013
+EN work/Full_adder 1543294639 FL D:/ISE/kadai3/Full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_adder/behavioral 1543294640 \
+      FL D:/ISE/kadai3/Full_adder.vhd EN work/Full_adder 1543294639 CP Half_adder
+FL D:/ISE/kadai3/Half_adder.vhd 2018/11/27.13:28:58 P.20131013
+EN work/Half_adder 1543294637 FL D:/ISE/kadai3/Half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Half_adder/behavioral 1543294638 \
+      FL D:/ISE/kadai3/Half_adder.vhd EN work/Half_adder 1543294637
