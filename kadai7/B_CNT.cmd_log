@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/ISE/kadai7/B_CNT.xst" -ofn "D:/ISE/kadai7/B_CNT.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai7/B_CNT.xst" -ofn "D:/ISE/kadai7/B_CNT.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai7/B_CNT.xst" -ofn "D:/ISE/kadai7/B_CNT.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai7/B_CNT.xst" -ofn "D:/ISE/kadai7/B_CNT.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai7/B_CNT.xst" -ofn "D:/ISE/kadai7/B_CNT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc B_CNT.ucf -p xc3s250e-tq144-5 B_CNT.ngc B_CNT.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o B_CNT_map.ncd B_CNT.ngd B_CNT.pcf 
+par -w -intstyle ise -ol high -t 1 B_CNT_map.ncd B_CNT.ncd B_CNT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml B_CNT.twx B_CNT.ncd -o B_CNT.twr B_CNT.pcf -ucf B_CNT.ucf 
+bitgen -intstyle ise -f B_CNT.ut B_CNT.ncd 

@@ -1,0 +1,6 @@
+V3 3
+FL D:/ISE/kadai7/B_CNT.vhd 2018/11/27.15:16:58 P.20131013
+EN work/B_CNT 1543299423 FL D:/ISE/kadai7/B_CNT.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/B_CNT/behavioral 1543299424 \
+      FL D:/ISE/kadai7/B_CNT.vhd EN work/B_CNT 1543299423

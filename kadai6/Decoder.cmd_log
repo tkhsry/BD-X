@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/ISE/kadai6/Decoder.xst" -ofn "D:/ISE/kadai6/Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Decoder.ucf -p xc3s250e-tq144-5 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -t 1 Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf -ucf Decoder.ucf 
+bitgen -intstyle ise -f Decoder.ut Decoder.ncd 
