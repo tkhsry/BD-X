@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/ISE/kadai9/Adder4.xst" -ofn "D:/ISE/kadai9/Adder4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc STATE_CAL4.ucf -p xc3s250e-tq144-5 Adder4.ngc Adder4.ngd  
+xst -intstyle ise -ifn "D:/ISE/kadai9/Adder4.xst" -ofn "D:/ISE/kadai9/Adder4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc STATE_CAL4.ucf -p xc3s250e-tq144-5 Adder4.ngc Adder4.ngd  

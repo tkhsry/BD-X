@@ -1,0 +1,5 @@
+vhdl work "../kadai4/Half_adder.vhd"
+vhdl work "../kadai4/Full_adder.vhd"
+vhdl work "../kadai6/Decoder.vhd"
+vhdl work "../kadai4/Adder4.vhd"
+vhdl work "STATE_CAL4.vhd"

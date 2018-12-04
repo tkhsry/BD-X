@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/ISE/kadai8/J_CNT.xst" -ofn "D:/ISE/kadai8/J_CNT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc J_CNT.ucf -p xc3s250e-tq144-5 J_CNT.ngc J_CNT.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o J_CNT_map.ncd J_CNT.ngd J_CNT.pcf 
+par -w -intstyle ise -ol high -t 1 J_CNT_map.ncd J_CNT.ncd J_CNT.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml J_CNT.twx J_CNT.ncd -o J_CNT.twr J_CNT.pcf -ucf J_CNT.ucf 
+bitgen -intstyle ise -f J_CNT.ut J_CNT.ncd 

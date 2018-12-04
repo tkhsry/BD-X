@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/ISE/kadai9/STATE_CAL4.xst" -ofn "D:/ISE/kadai9/STATE_CAL4.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai9/STATE_CAL4.xst" -ofn "D:/ISE/kadai9/STATE_CAL4.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai9/STATE_CAL4.xst" -ofn "D:/ISE/kadai9/STATE_CAL4.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai9/STATE_CAL4.xst" -ofn "D:/ISE/kadai9/STATE_CAL4.syr" 
+xst -intstyle ise -ifn "D:/ISE/kadai9/STATE_CAL4.xst" -ofn "D:/ISE/kadai9/STATE_CAL4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc STATE_CAL4.ucf -p xc3s250e-tq144-5 STATE_CAL4.ngc STATE_CAL4.ngd  
+xst -intstyle ise -ifn "D:/ISE/kadai9/STATE_CAL4.xst" -ofn "D:/ISE/kadai9/STATE_CAL4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc STATE_CAL4.ucf -p xc3s250e-tq144-5 STATE_CAL4.ngc STATE_CAL4.ngd  
+map -intstyle ise -p xc3s250e-tq144-5 -cm area -ir off -pr off -c 100 -o STATE_CAL4_map.ncd STATE_CAL4.ngd STATE_CAL4.pcf 
+par -w -intstyle ise -ol high -t 1 STATE_CAL4_map.ncd STATE_CAL4.ncd STATE_CAL4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml STATE_CAL4.twx STATE_CAL4.ncd -o STATE_CAL4.twr STATE_CAL4.pcf -ucf STATE_CAL4.ucf 
+bitgen -intstyle ise -f STATE_CAL4.ut STATE_CAL4.ncd 
