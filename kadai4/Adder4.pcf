@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 27 14:28:41 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Y<1>" LOCATE = SITE "P124" LEVEL 1;
+COMP "Y<2>" LOCATE = SITE "P113" LEVEL 1;
+COMP "Y<3>" LOCATE = SITE "P112" LEVEL 1;
+COMP "CI" LOCATE = SITE "P6" LEVEL 1;
+COMP "A<0>" LOCATE = SITE "P111" LEVEL 1;
+COMP "CO" LOCATE = SITE "P117" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "P114" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "P136" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "P141" LEVEL 1;
+COMP "B<0>" LOCATE = SITE "P120" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "P119" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "P129" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "P128" LEVEL 1;
+COMP "Y<0>" LOCATE = SITE "P132" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,6 @@
+EN half_adder NULL D:/ISE/kadai4/Half_adder.vhd sub00/vhpl04 1543296512
+EN adder4 NULL D:/ISE/kadai4/Adder4.vhd sub00/vhpl00 1543296516
+AR adder4 behavioral D:/ISE/kadai4/Adder4.vhd sub00/vhpl01 1543296517
+AR full_adder behavioral D:/ISE/kadai4/Full_adder.vhd sub00/vhpl03 1543296515
+EN full_adder NULL D:/ISE/kadai4/Full_adder.vhd sub00/vhpl02 1543296514
+AR half_adder behavioral D:/ISE/kadai4/Half_adder.vhd sub00/vhpl05 1543296513
